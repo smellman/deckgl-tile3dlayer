@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "rm -fr build && parcel build index.html -d build --public-url '/deckgl-tile3dlayer/'"
   },
   "keywords": [],
   "author": "Taro Matsuzawa <btm@tech.email.ne.jp> (https://smellman.hatenablog.com/)",
